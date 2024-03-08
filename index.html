@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <title>Formuário</title>
+</head>
+<body>
+    <h1>Preencha o Formulário</h1>
+    <form action="#" method="get">
+        
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome"><br>
+    
+            <label for="idade">Idade</label><br>
+            <input type="number" name="idade" id="idade"><br>
+        
+        
+            <label for="cargo" id="labelCargo">Cargo</label>
+            <select name="cargo" id="cargo">
+                    <option value="Selecione">Selecione um cargo</option>
+                    <option value="gerente">Gerente</option>
+                    <option value="desenvolvedor">Desenvolvedor</option>
+            </select>
+           
+            <label for="departamento">Departamento</label><br>
+            <input type="text" name="departamento" id="departamento"><br>
+        
+    
+            <label for="linguagem">Linguagem</label><br>
+            <input type="text" name="linguagem" id="linguagem"><br>
+        
+    
+            <button type="submit" onclick ="enviar()">Enviar</button>
+        
+    </form>
+
+</body>
+</html>
